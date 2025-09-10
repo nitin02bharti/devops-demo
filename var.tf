@@ -1,0 +1,13 @@
+variable "sid" { type = string }
+variable "tid" { type = string }
+variable "cid" { type = string }
+variable "secret" { type = string }
+variable "region" { type = string }
+variable "rgname" { type = string }
+variable "vnetname" { type = string }
+variable "vnetaddr" { type = list(any) }
+variable "subnetname" { type = list(any) }
+variable "subnetaddr" { type = list(any) }
+variable "nicname" { type = string }
+variable "nsgrules1" { type = list(map(any)) }
+variable "nsgname" { type = string }
